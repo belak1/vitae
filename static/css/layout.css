@@ -4,7 +4,8 @@
 -------------------------------------------------- */
 
 #wrap {
-  padding-bottom: 50px;	
+  padding-bottom: 50px;
+  margin-top: 50px;
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
@@ -24,7 +25,7 @@
   color: #6b6b6b;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
+  color: #003cb3;
 }
 .navbar-default .navbar-text {
   color: #6b6b6b;
@@ -60,7 +61,7 @@
   color: #6b6b6b;
 }
 .navbar-default .navbar-link:hover {
-  color: #6b6b6b;
+  color: #003cb3;
 }
 
 /* Custom page CSS
