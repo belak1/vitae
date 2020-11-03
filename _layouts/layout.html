@@ -23,10 +23,11 @@
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
 <body>
-<div class="container">
+<div id="wrap">
     
-    {% include header.html %}
+        {% include header.html %}
     
+    <div class="container">
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/BrianBelak.jpg" class="me">
         <h1>{{ site.name }}</h1>
@@ -60,6 +61,7 @@
     </footer>
     </div>
 </div>
+    </div>    
 
 <!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
